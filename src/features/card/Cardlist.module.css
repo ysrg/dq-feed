@@ -1,0 +1,20 @@
+.App__cardlist {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.App__cardlist > * {
+  flex: 0 0 30%;
+  background-position: center;
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+}

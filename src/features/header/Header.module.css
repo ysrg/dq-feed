@@ -1,0 +1,29 @@
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px 0 10px;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: row;
+}
+.headerLeft a {
+  text-decoration: none;
+}
+
+.headerLeft h3 {
+  margin-right: 16px;
+}
+
+.headerInput {
+  border-radius: 5px;
+}
+
+.headerMenu:hover {
+  opacity: 0.8;
+}
